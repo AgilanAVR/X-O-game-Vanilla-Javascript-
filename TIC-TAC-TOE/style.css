@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=PT+Sans+Caption&family=Play:wght@400;700&family=Roboto&family=Ubuntu:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display:flex;
+    align-items: center;
+    height:50px;
+    background-color: black;
+    color:white;
+    font-size:20px;
+    padding:10px 5px 5px 5px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 550;
+
+}
+nav ul li{
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    margin-top: 30px;
+}
+.box{
+    border:2px solid;
+    height:150px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 80px;
+    cursor:pointer
+}
+.box:hover{
+    background-color: rgb(233, 233, 231);
+}
+.gameInfo h3{
+    font-size:32px;
+    margin:10px;
+     font-family: 'Ubuntu', sans-serif;
+}
+.gameInfoContent span{
+font-size:18px ;
+font-weight:500;
+padding:0 12px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.gameInfoContent button{
+padding: 4px 6px;
+background-color: #ebe9e4;
+border: none;
+font-family: 'Ubuntu', sans-serif;
+}
+.gameInfoContent button:hover{
+    background-color:#c8c8c6;
+
+}
+.winGif{
+    margin-top: 50px;
+}
+.winGif img{
+ width: 0;
+ transition: width 1s ease-in-out;
+}
+
+.bt{
+    border-top: 0;
+}
+.br{
+    border-right: 0;
+}
+.bl{
+    border-left: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.bg-color{
+    background: #0dceef;
+    transition:background-color .5s ease;
+    color:white;
+    border:1px solid black
+}

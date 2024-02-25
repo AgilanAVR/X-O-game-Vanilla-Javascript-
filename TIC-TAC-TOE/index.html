@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li>TicTacToe.com</li>
+        </ul>
+    </nav>
+
+    <!-- ---game container--- -->
+    <div class="container mx-auto row">
+        <div class="container-content col-md-6">
+            <div class="row">
+                <div class="box col-4 bt bl"><span class="box-content"></span></div>
+                <div class="box col-4 bt"><span class="box-content"></span></div>
+                <div class="box col-4 bt br"><span class="box-content"></span></div>
+ 
+            </div>
+
+            <div class="row">
+                <div class="box col-4 bl"><span class="box-content"></span></div>
+                <div class="box col-4"><span class="box-content"></span></div>
+                <div class="box col-4 br"><span class="box-content"></span></div>
+            </div>
+            <div class="row">
+
+                <div class="box col-4 bl bb"><span class="box-content"></span></div>
+                <div class="box col-4 bb"><span class="box-content"></span></div>
+                <div class="box col-4 bb br"><span class="box-content"></span></div>
+            </div>
+
+
+        </div>
+
+
+        <!-- ------Information of the game---- -->
+        <div class="gameInfo col-md-6">
+            <h3>welcome to Tic Tac Toe</h3>
+            <div class="gameInfoContent">
+                <span id="playerTurn">Turn for X</span>
+                <button class="gameInfoButton btn">Reset</button>
+                
+            </div>
+            <div class="winGif">
+                <img src="excited.gif" alt="" id="gif" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
